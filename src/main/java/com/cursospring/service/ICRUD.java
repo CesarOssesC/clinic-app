@@ -2,11 +2,11 @@ package com.cursospring.service;
 
 import java.util.List;
 
-public interface ICRUD<T, ID> {
+public interface ICRUD<T, ID>{
     
     T save(T t);
 
-    T update(T t, ID id);
+    T update(T t, ID id) throws Exception;
 
     List<T> findAll();
 

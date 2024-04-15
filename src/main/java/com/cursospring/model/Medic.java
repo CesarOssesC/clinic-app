@@ -25,5 +25,5 @@ public class Medic {
     private String codMed;
 
     @Column(length = 200, nullable = false)
-    private String url;
+    private String photoUrl;
 }

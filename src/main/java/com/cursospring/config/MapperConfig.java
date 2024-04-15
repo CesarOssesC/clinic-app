@@ -11,7 +11,7 @@ import com.cursospring.model.Medic;
 @Configuration
 public class MapperConfig {
     
-    @Bean("defaulMapper")
+    @Bean("defaultMapper")
     public ModelMapper modelMapper() {
         return new ModelMapper();
     }

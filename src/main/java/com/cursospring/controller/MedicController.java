@@ -22,8 +22,8 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 import com.cursospring.dto.MedicDTO;
-//import com.spring.dto.MedicRecord;
-//import com.spring.dto.MedicRecord;
+//import com.cursospring.dto.MedicRecord;
+//import com.cursospring.dto.MedicRecord;
 import com.cursospring.model.Medic;
 import com.cursospring.service.IMedicService;
 
